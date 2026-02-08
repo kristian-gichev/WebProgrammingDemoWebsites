@@ -2,101 +2,33 @@
 
 ## Project Overview
 
-A responsive pet hotel website built from scratch using pure HTML5 and CSS3 without any frameworks. This project demonstrates modern web development techniques including semantic HTML, responsive design, and CSS animations.
+A responsive single-page pet hotel website built from scratch using pure HTML5 and CSS3 without any frameworks. This project demonstrates fundamental web development techniques including semantic HTML, responsive design with CSS Grid and Flexbox, and essential CSS properties.
 
-## 🎯 Features
+## Key Features
 
 ### Core Requirements Met
-- ✅ Pure HTML5/CSS3 (no frameworks)
-- ✅ Main container with proper semantic structure
-- ✅ Header, navigation, content, and footer containers
-- ✅ Multiple navigation types (horizontal text, horizontal graphic, vertical text)
-- ✅ Responsive multi-column layout (3+ columns at 1200px+)
-- ✅ AI-generated video gallery page
-- ✅ W3C HTML5 and CSS3 compliant
+- Pure HTML5/CSS3 (no frameworks)
+- Semantic HTML5 structure
+- **Three navigation types:**
+  - Horizontal text navigation (sticky)
+  - Horizontal secondary navigation (text-based, different styling)
+  - Vertical text navigation (in sidebar)
+- **3-column responsive layout** (at width > 1200px)
+- **Single-page application** with anchor navigation
+- Gallery with images from Unsplash
+- W3C HTML5 and CSS3 compliant
 
-### Website Structure
+### File Structure
 
-#### HTML5 Semantic Elements
-- `<header>` - Site header with logo and contact info
-- `<nav>` - Multiple navigation sections
-- `<article>` - Content sections (home, services, rooms, gallery, contact)
-- `<aside>` - Left and right sidebars
-- `<section>` - Sub-sections within articles
-- `<footer>` - Site footer with links and copyright
-
-#### Navigation Types
-1. **Horizontal Text Navigation** - Sticky top menu with hover effects
-2. **Horizontal Graphic Navigation** - Icon-based navigation with emoji icons
-3. **Vertical Text Navigation** - Sidebar menu with hierarchical links
-
-### Responsive Design
-
-#### Breakpoints (Bootstrap v5.0+ standard)
-- **< 576px** - Extra small devices (portrait phones)
-- **576px - 768px** - Small devices (landscape phones)
-- **768px - 992px** - Medium devices (tablets)
-- **992px - 1200px** - Large devices (desktops)
-- **1200px - 1400px** - Extra large devices (large desktops)
-- **1400px+** - Extra extra large devices (larger desktops)
-
-#### Layout Approaches
-- Fluid layout with percentage-based widths
-- Flexible grid using CSS Grid
-- Flexbox for component alignment
-- Responsive images and typography
-- Mobile-first approach
-
-### CSS Properties Used
-
-#### Positioning & Layout
-- `display` (flex, grid, block, inline-block)
-- `position` (relative, absolute, sticky, fixed)
-- `flex` (flex-direction, justify-content, align-items, gap)
-- `grid` (grid-template-columns, gap)
-- `float` & `clear`
-- `z-index`
-- `overflow`
-- `visibility`
-- `opacity`
-
-#### Styling
-- **Background**: gradients, colors, images
-- **Box Model**: padding, margin, border, border-radius
-- **Colors**: CSS variables, rgba
-- **Fonts**: font-family, font-size, font-weight, text-transform, letter-spacing
-- **Text**: text-align, text-decoration, text-shadow, line-height
-- **Links**: hover states, transitions
-- **Lists**: list-style, custom list markers
-- **Transforms**: translateY, scale
-- **Transitions**: all, specific properties
-- **Animations**: fadeIn, fadeInDown, fadeInUp
-
-### AI-Generated Content
-
-The website includes an AI-generated video gallery showcasing:
-
-#### Video Content (8 videos, 15+ minutes total)
-1. **Welcome to Paws & Rest** (3:45) - Synthesia
-2. **Virtual Facility Tour** (2:30) - Fliki.ai
-3. **A Day in the Life** (2:15) - Kapwing
-4. **Grooming & Spa Services** (1:50) - VEED
-5. **Happy Pet Parents** (1:35) - Synthesia
-6. **Pet Care Tips & Tricks** (2:00) - Canva
-
-#### AI Generation Techniques
-- **Text-to-Speech (TTS)** - Natural voiceovers from scripts
-- **Speech-to-Text (STT)** - Automatic transcription
-- **Script-to-Video** - Video generation from text
-- **Auto-Subtitling** - Synchronized captions
-
-#### Tools Used
-- fliki.ai
-- synthesia
-- kapwing
-- veed
-- canva
-- leonardo.ai
+```
+pet-hotel-from-scratch/
+├── index.html              # Main single-page application (259 lines)
+├── css/
+│   └── style.css          # Main stylesheet (391 lines)
+├── images/                # Image assets folder
+├── README.md              # This file
+└── CSS-DOCUMENTATION.md   # Detailed CSS documentation
+```
 
 ## 📁 File Structure
 

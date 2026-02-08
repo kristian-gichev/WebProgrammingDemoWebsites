@@ -7,8 +7,17 @@ This repository contains **two separate responsive single-page websites** create
 ### Project Structure
 ```
 WebProgrammingWebsites/
-├── pet-hotel-from-scratch/     # Pure HTML5/CSS3 website (no frameworks)
-├── pet-shop-with-bootstrap/    # Bootstrap 5.3.2 framework website
+├── pet-hotel-from-scratch/     # Pure HTML5/CSS3 single-page website
+│   ├── index.html              # (259 lines)
+│   ├── css/style.css          # (391 lines)
+│   ├── images/
+│   ├── README.md
+│   └── CSS-DOCUMENTATION.md
+├── pet-shop-with-bootstrap/    # Bootstrap 5.3.2 single-page website
+│   ├── index.html              # (783 lines)
+│   ├── css/custom.css         # (47 lines)
+│   ├── images/
+│   └── README.md
 ├── CLAUDE.md                   # AI assistant guidance
 ├── instructions.txt            # Course requirements (Bulgarian)
 ├── copilot.md                  # This file
@@ -28,17 +37,17 @@ WebProgrammingWebsites/
 - ✅ **Semantic HTML5 structure** using `<header>`, `<nav>`, `<article>`, `<aside>`, `<section>`, `<footer>`
 - ✅ **Three navigation types:**
   - Horizontal text navigation (sticky)
-  - Horizontal graphic navigation (with emoji icons)
+  - Horizontal secondary navigation (text-based, different styling)
   - Vertical text navigation (in sidebar)
 - ✅ **Multi-column responsive layout:**
   - 3+ columns at width > 1200px
   - Left sidebar with vertical navigation
   - Main content area
   - Right sidebar with booking widget
-- ✅ **Custom CSS from scratch** (1356+ lines)
+- ✅ **Custom CSS from scratch** (391 lines - essential only)
 - ✅ **Responsive breakpoints:** 576px, 768px, 992px, 1200px, 1400px (Bootstrap v5.0+ standard)
-- ✅ **AI-generated video gallery** with 6+ videos
-
+- ✅ **Single-page application** with smooth scroll navigation
+- ✅ **Gallery section** with Unsplash placeholder images
 #### CSS Techniques Demonstrated:
 **Positioning & Layout:**
 - `display` (flex, grid, block, inline-block)
@@ -79,21 +88,21 @@ pet-hotel-from-scratch/
 
 #### Key Features:
 - ✅ **Bootstrap 5.3.2 Framework** via CDN
-- ✅ **Bootstrap Icons** library integration
+- ✅ **Bootstrap Icons** library integration (navbar and header only)
 - ✅ **Bootstrap Grid System showcase:**
   - 12-column responsive grid layouts
   - Nested grids and complex layouts
   - Grid breakpoint demonstrations
-  - Column ordering and alignment
+  - Column sizing and responsive behavior
 - ✅ **Responsive Bootstrap components:**
-  - Navbar with dropdown menus
-  - Card components (products, services)
+  - Navbar (responsive, no icons in links)
+  - Card components (products, services, gallery images)
   - Buttons, badges, and forms
   - Utility classes for spacing/colors
-- ✅ **Custom styling** to enhance Bootstrap theme
+- ✅ **Minimal custom CSS** (47 lines - hero gradient and hover effects only)
 - ✅ **Mobile-first responsive design**
 - ✅ **Single-page application** with scrollspy
-- ✅ **E-commerce features** (product cards, shopping cart badge)
+- ✅ **Gallery section** with Unsplash placeholder images
 
 #### Bootstrap Components Used:
 - **Navigation:** Navbar with collapse, dropdown menus

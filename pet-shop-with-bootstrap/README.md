@@ -2,92 +2,28 @@
 
 ## Project Overview
 
-A modern, responsive pet shop e-commerce website built using Bootstrap 5.3.2 framework. This project demonstrates professional web development with Bootstrap components, custom styling, and integrated AI-generated content.
+A modern, responsive single-page pet shop website built using Bootstrap 5.3.2 framework. This project demonstrates professional web development with Bootstrap grid system, components, and minimal custom CSS styling.
 
-## 🎯 Features
+## Key Features
 
-### Core Requirements Met
-- ✅ Built with Bootstrap 5.3.2 framework
-- ✅ Responsive design across all devices
-- ✅ Modern UI/UX patterns
-- ✅ AI-generated video gallery
-- ✅ E-commerce features
-- ✅ W3C HTML5 compliant
+- Bootstrap 5.3.2 Framework via CDN
+- Bootstrap Icons library integration
+- **Bootstrap Grid System showcase** (12-column responsive grid)
+- Responsive Bootstrap components (Navbar, Cards, Buttons, Forms)
+- Minimal custom CSS (~47 lines)
+- Mobile-first responsive design
+- **Single-page application** with smooth scroll navigation
+- Gallery with placeholder images from Unsplash
+- W3C HTML5 compliant
 
-### Website Structure
-
-#### Bootstrap Components Used
-- **Navbar** - Responsive navigation with dropdown
-- **Cards** - Product cards, service cards, video cards
-- **Grid System** - 12-column responsive layout
-- **Buttons** - Multiple styles and sizes
-- **Badges** - Notification badges, status tags
-- **Forms** - Contact forms, newsletter signup
-- **Icons** - Bootstrap Icons library
-- **Utilities** - Spacing, colors, typography
-
-#### Sections
-1. **Home** - Hero section with CTAs
-2. **Products** - Category browsing and featured products
-3. **Services** - Grooming, vet clinic, training
-4. **Gallery** - AI-generated video showcase
-5. **Contact** - Contact form and information
-6. **Footer** - Links, social media, newsletter
-
-### Responsive Design
-
-#### Bootstrap Breakpoints
-- **< 576px** (xs) - Extra small devices
-- **≥ 576px** (sm) - Small devices
-- **≥ 768px** (md) - Medium devices
-- **≥ 992px** (lg) - Large devices
-- **≥ 1200px** (xl) - Extra large devices
-- **≥ 1400px** (xxl) - Extra extra large devices
-
-#### Responsive Features
-- Mobile-first approach (Bootstrap standard)
-- Collapsible navigation on mobile
-- Responsive grid layouts
-- Adaptive images
-- Touch-friendly UI elements
-- Responsive typography
-
-### AI-Generated Content
-
-#### Video Gallery (8+ videos, 15+ minutes)
-1. **Virtual Store Tour** (3:45) - Synthesia - Featured
-2. **Premium Dog Food Collection** (2:15) - Fliki.ai
-3. **Pet Nutrition Guide** (2:30) - Synthesia
-4. **Aquarium Setup Tutorial** (3:00) - VEED
-5. **Customer testimonials** - Multiple short videos
-
-#### AI Generation Processes
-- **Text-to-Speech (TTS)** - AI voice synthesis
-- **Speech-to-Text (STT)** - Auto transcription
-- **Script-to-Video** - Complete video generation
-- **Auto-Subtitling** - Synced captions
-- **AI Avatar** - Virtual presenters
-- **AI Graphics** - Generated visuals
-- **AI Music** - Background audio
-
-#### Tools Used
-- Fliki.ai
-- Synthesia
-- Kapwing
-- VEED
-- Canva
-- Leonardo.ai
-
-## 📁 File Structure
+## File Structure
 
 ```
 pet-shop-with-bootstrap/
-├── index.html          # Main homepage (single-page app)
-├── gallery.html        # Dedicated gallery page
+├── index.html          # Main single-page application (783 lines)
 ├── css/
-│   ├── custom.css     # Custom Bootstrap enhancements
-│   └── gallery.css    # Gallery-specific styles
-├── images/            # Image assets
+│   └── custom.css     # Minimal custom styles (47 lines)
+├── images/            # Image assets folder
 └── README.md          # This file
 ```
 
