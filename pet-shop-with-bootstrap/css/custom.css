@@ -38,4 +38,5 @@
 /* Smooth Scrolling */
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 70px; /* Offset for sticky navbar + top bar */
 }
