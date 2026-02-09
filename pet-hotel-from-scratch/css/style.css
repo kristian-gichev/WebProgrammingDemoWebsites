@@ -76,30 +76,7 @@ body {
     background-color: var(--accent-color);
     color: var(--dark-color);
 }
-/* Horizontal Secondary Navigation */
-.nav-horizontal-secondary {
-    background-color: var(--accent-color);
-    padding: 0.5rem 0;
-}
-.nav-horizontal-secondary ul {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    list-style: none;
-    gap: 1rem;
-}
-.nav-horizontal-secondary a {
-    display: block;
-    padding: 0.5rem 1rem;
-    color: var(--dark-color);
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-}
-.nav-horizontal-secondary a:hover {
-    background-color: var(--dark-color);
-    color: var(--white);
-}
+
 /* 3-Column Layout */
 .content-container {
     display: grid;
