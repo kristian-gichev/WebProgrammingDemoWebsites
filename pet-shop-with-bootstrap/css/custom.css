@@ -2,6 +2,13 @@
    Happy Paws Pet Shop - Custom Styles
    Minimal Bootstrap Enhancements
    =========================================== */
+
+/* Header Container Width */
+.top-bar .container,
+.navbar .container {
+    max-width: 1400px;
+}
+
 /* Hero Section */
 .hero-section {
     background: linear-gradient(135deg, #0d6efd 0%, #0b5ed7 50%, #084298 100%);
@@ -27,6 +34,7 @@
     color: white;
     backdrop-filter: blur(10px);
 }
+
 /* Card Hover Effects */
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -35,8 +43,21 @@
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
+
+/* Category Icons */
+.category-icon,
+.service-icon {
+    width: 80px;
+    height: 80px;
+}
+
+/* Product Images */
+.product-image {
+    height: 200px;
+}
+
 /* Smooth Scrolling */
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 70px; /* Offset for sticky navbar + top bar */
+    scroll-padding-top: 70px;
 }
